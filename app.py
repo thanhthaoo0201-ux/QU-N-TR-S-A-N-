@@ -15,7 +15,7 @@ from pathlib import Path
 # =========================================================
 
 st.set_page_config(
-    page_title="Tiệm trà Ú Nu",
+    page_title="Tiệm trà Ú Nu | Menu mới 20.10",
     page_icon="🧋",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -176,22 +176,22 @@ hr { border-color: #f0dce3 !important; }
 
 # -------------------- DATA --------------------
 MENU = [
-    {"id":"unu01","name":"Trà sữa khoai môn","category":"Trà sữa","price":39000,"tag":"Best seller","desc":"Khoai môn bùi thơm, sữa béo dịu và trân châu dai mềm.","emoji":"🧋","image":"https://images.unsplash.com/photo-1558857563-b371033873b8?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu02","name":"Trà sữa nướng kem trứng","category":"Trà sữa","price":45000,"tag":"Creamy","desc":"Trà sữa thơm vị nướng, phủ kem trứng mềm mịn.","emoji":"🥤","image":"https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu03","name":"Matcha latte dâu","category":"Matcha & sữa","price":44000,"tag":"Pink & green","desc":"Matcha thanh nhẹ kết hợp sữa dâu ngọt dịu, màu sắc bắt mắt.","emoji":"🍵","image":"https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu04","name":"Trà đào hoa nhài","category":"Trà trái cây","price":36000,"tag":"Fresh","desc":"Trà hoa nhài thơm dịu, đào mọng ngọt và hậu vị thanh mát.","emoji":"🍑","image":"https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu05","name":"Trà vải hoa hồng","category":"Trà trái cây","price":38000,"tag":"Floral","desc":"Vải ngọt thơm hòa cùng hương hoa hồng nhẹ nhàng.","emoji":"🌹","image":"https://images.unsplash.com/photo-1513558161293-c2b9a9f9b3f5?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu06","name":"Trà chanh mật ong","category":"Trà trái cây","price":32000,"tag":"Refreshing","desc":"Vị chanh chua nhẹ, mật ong dịu ngọt, uống mát lành.","emoji":"🍋","image":"https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu07","name":"Trà dưa lưới bạc hà","category":"Trà trái cây","price":37000,"tag":"Cool mood","desc":"Dưa lưới thơm ngọt kết hợp bạc hà mát lạnh.","emoji":"🍈","image":"https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu08","name":"Trà sen vàng","category":"Trà nguyên bản","price":35000,"tag":"Gentle","desc":"Hương trà dịu, thoang thoảng mùi sen thanh tao.","emoji":"🪷","image":"https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu09","name":"Cà phê muối Ú Nu","category":"Cà phê","price":35000,"tag":"Signature","desc":"Cà phê đậm vị với lớp kem muối mằn mặn, béo nhẹ.","emoji":"☕","image":"https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu10","name":"Bạc xỉu sữa tươi","category":"Cà phê","price":32000,"tag":"Smooth","desc":"Nhiều sữa, cà phê vừa phải, thơm béo và dễ uống.","emoji":"🥛","image":"https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu11","name":"Cold brew cam","category":"Cà phê","price":39000,"tag":"Bright","desc":"Cold brew êm vị, thêm hương cam tươi mát.","emoji":"🍊","image":"https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu12","name":"Cacao marshmallow","category":"Matcha & sữa","price":40000,"tag":"Chocolate","desc":"Cacao thơm đậm, sữa nóng/lạnh tùy chọn cùng marshmallow mềm.","emoji":"🍫","image":"https://images.unsplash.com/photo-1542990253-0b8be4edc7b5?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu13","name":"Soda việt quất","category":"Soda","price":34000,"tag":"Sparkling","desc":"Soda sủi bọt với vị việt quất chua ngọt tươi vui.","emoji":"🫐","image":"https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu14","name":"Sữa dâu tươi","category":"Matcha & sữa","price":38000,"tag":"Pink favorite","desc":"Dâu thơm chua ngọt cùng sữa tươi dịu béo.","emoji":"🍓","image":"https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu15","name":"Ô long đào kem cheese","category":"Trà sữa","price":46000,"tag":"Premium","desc":"Ô long thơm đậm, đào ngọt dịu và lớp kem cheese mịn.","emoji":"🍑","image":"https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=900&q=85"},
-    {"id":"unu16","name":"Matcha dừa non","category":"Matcha & sữa","price":43000,"tag":"Green mood","desc":"Matcha thanh mát kết hợp vị dừa non mềm thơm.","emoji":"🥥","image":"https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu01","name":"Trà sữa khoai môn","category":"Trà sữa","price":41000,"tag":"Best seller","desc":"Khoai môn bùi thơm, sữa béo dịu và trân châu dai mềm.","emoji":"🧋","image":"https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu02","name":"Trà sữa nướng kem trứng","category":"Trà sữa","price":47000,"tag":"Creamy","desc":"Trà sữa thơm vị nướng, phủ kem trứng mềm mịn.","emoji":"🥤","image":"https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu03","name":"Matcha latte dâu","category":"Matcha & sữa","price":46000,"tag":"Pink & green","desc":"Matcha thanh nhẹ kết hợp sữa dâu ngọt dịu, màu sắc bắt mắt.","emoji":"🍵","image":"https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu04","name":"Trà đào hoa nhài","category":"Trà trái cây","price":37000,"tag":"Fresh","desc":"Trà hoa nhài thơm dịu, đào mọng ngọt và hậu vị thanh mát.","emoji":"🍑","image":"https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu05","name":"Trà vải hoa hồng","category":"Trà trái cây","price":39000,"tag":"Floral","desc":"Vải ngọt thơm hòa cùng hương hoa hồng nhẹ nhàng.","emoji":"🌹","image":"https://images.unsplash.com/photo-1513558161293-c2b9a9f9b3f5?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu06","name":"Trà chanh mật ong","category":"Trà trái cây","price":32000,"tag":"Refreshing","desc":"Vị chanh chua nhẹ, mật ong dịu ngọt, uống mát lành.","emoji":"🍋","image":"https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu07","name":"Trà dưa lưới bạc hà","category":"Trà trái cây","price":36000,"tag":"Cool mood","desc":"Dưa lưới thơm ngọt kết hợp bạc hà mát lạnh.","emoji":"🍈","image":"https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu08","name":"Trà sen vàng","category":"Trà nguyên bản","price":34000,"tag":"Gentle","desc":"Hương trà dịu, thoang thoảng mùi sen thanh tao.","emoji":"🪷","image":"https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu09","name":"Cà phê muối Ú Nu","category":"Cà phê","price":38000,"tag":"Signature","desc":"Cà phê đậm vị với lớp kem muối mằn mặn, béo nhẹ.","emoji":"☕","image":"https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu10","name":"Bạc xỉu sữa tươi","category":"Cà phê","price":31000,"tag":"Smooth","desc":"Nhiều sữa, cà phê vừa phải, thơm béo và dễ uống.","emoji":"🥛","image":"https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu11","name":"Cold brew cam","category":"Cà phê","price":42000,"tag":"Bright","desc":"Cold brew êm vị, thêm hương cam tươi mát.","emoji":"🍊","image":"https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu12","name":"Cacao marshmallow","category":"Matcha & sữa","price":40000,"tag":"Chocolate","desc":"Cacao thơm đậm, sữa nóng/lạnh tùy chọn cùng marshmallow mềm.","emoji":"🍫","image":"https://images.unsplash.com/photo-1542990253-0b8be4edc7b5?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu13","name":"Soda việt quất","category":"Soda","price":33000,"tag":"Sparkling","desc":"Soda sủi bọt với vị việt quất chua ngọt tươi vui.","emoji":"🫐","image":"https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu14","name":"Sữa dâu tươi","category":"Matcha & sữa","price":35000,"tag":"Pink favorite","desc":"Dâu thơm chua ngọt cùng sữa tươi dịu béo.","emoji":"🍓","image":"https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu15","name":"Ô long đào kem cheese","category":"Trà sữa","price":48000,"tag":"Premium","desc":"Ô long thơm đậm, đào ngọt dịu và lớp kem cheese mịn.","emoji":"🍑","image":"https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
+    {"id":"unu16","name":"Matcha dừa non","category":"Matcha & sữa","price":44000,"tag":"Green mood","desc":"Matcha thanh mát kết hợp vị dừa non mềm thơm.","emoji":"🥥","image":"https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=900&q=85&v=unu20261020b"},
 ]
 
 TOPPINGS = {"Trân châu đen":7000,"Trân châu trắng":7000,"Pudding trứng":8000,"Kem cheese":10000,"Thạch trái cây":7000}
@@ -325,6 +325,7 @@ st.markdown("""
   <div class="hero-note">CHỌN VỊ BẠN THÍCH · THƯỞNG TRỌN NIỀM VUI</div>
 </div>
 """, unsafe_allow_html=True)
+st.caption("MENU MỚI Ú NU · BẢN CẬP NHẬT 20/10/2026 · 16 MÓN · MÃ PHIÊN BẢN UNU-20261020-B")
 
 # -------------------- NAV TABS --------------------
 tab_menu, tab_mood, tab_cart, tab_track, tab_reviews, tab_admin = st.tabs([
@@ -659,3 +660,4 @@ with tab_admin:
             st.info("Chưa có đơn hàng nào trong phiên chạy này.")
 
 st.markdown('<div class="footer">🧋 Tiệm trà Ú Nu · Trà ngon, vui mỗi ngày<br>Chọn món yêu thích · Tuỳ chỉnh theo gu · Gửi trọn niềm vui</div>', unsafe_allow_html=True)
+
