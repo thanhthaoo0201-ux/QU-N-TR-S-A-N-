@@ -176,26 +176,29 @@ hr { border-color: #f0dce3 !important; }
 
 # -------------------- DATA --------------------
 MENU = [
-    {"id":"ml01","name":"Trà sữa trân châu đường đen","category":"Trà sữa","price":39000,"tag":"Best seller","desc":"Trà sữa béo thơm, trân châu dai và sốt đường đen.","emoji":"🧋","image":"https://images.unsplash.com/photo-1558857563-b371033873b8?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml02","name":"Trà sữa ô long kem cheese","category":"Trà sữa","price":42000,"tag":"Creamy","desc":"Ô long thơm nhẹ, lớp kem cheese mặn ngọt.","emoji":"🥤","image":"https://i.beauty321.com/600x/https%3A/il.beauty321.com/gallery/gallery/54522/photo-643e6356d2024.jpg"},
-    {"id":"ml03","name":"Matcha latte","category":"Trà sữa","price":42000,"tag":"Green mood","desc":"Matcha thơm, vị đắng dịu và sữa mịn.","emoji":"🍵","image":"https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml04","name":"Trà đào cam sả","category":"Trà trái cây","price":35000,"tag":"Fresh","desc":"Trà thanh mát, đào ngọt dịu, cam và sả thơm.","emoji":"🍑","image":"https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml05","name":"Trà gạo rang","category":"Trà nguyên bản","price":32000,"tag":"Gentle","desc":"Hương gạo rang ấm, hậu vị dịu và dễ uống.","emoji":"🌾","image":"https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml06","name":"Trà dưa lưới nhiệt đới","category":"Trà trái cây","price":36000,"tag":"Seasonal","desc":"Dưa lưới thơm ngọt kết hợp trà thanh mát.","emoji":"🍈","image":"https://bucket.cooklaif.com/311-honeydew-melon-iced-green-tea-311.jpg"},
-    {"id":"ml07","name":"Cà phê sữa Ú Nu","category":"Cà phê","price":29000,"tag":"Wake up","desc":"Cà phê đậm đà, sữa ngọt vừa phải.","emoji":"☕","image":"https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml08","name":"Americano cam","category":"Cà phê","price":35000,"tag":"Bright","desc":"Cà phê thanh, hương cam tươi mát.","emoji":"🍊","image":"https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml09","name":"Trà sữa truyền thống Ú Nu","category":"Trà sữa","price":30000,"tag":"Classic","desc":"Trà đen đậm vị kết hợp sữa thơm béo, chuẩn gu truyền thống.","emoji":"🧋","image":"https://i.beauty321.com/600x/https%3A/il.beauty321.com/gallery/gallery/59587/photo-6597c97730efe.jpg"},
-    {"id":"ml10","name":"Cacao latte macchiato","category":"Trà sữa","price":38000,"tag":"Chocolate mood","desc":"Cacao thơm đậm, sữa mịn và lớp kem béo nhẹ.","emoji":"🍫","image":"https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml11","name":"Trà xanh hoa nhài","category":"Trà nguyên bản","price":32000,"tag":"Floral","desc":"Hương hoa nhài dịu dàng, vị trà thanh mát dễ uống.","emoji":"🌸","image":"https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml12","name":"Trà Genmaicha gạo rang","category":"Trà nguyên bản","price":35000,"tag":"Japanese tea","desc":"Trà xanh Nhật Bản với hương gạo rang bùi thơm, hậu vị êm.","emoji":"🌾","image":"https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85"},
-    {"id":"ml13","name":"Sữa dâu giòn ngọt","category":"Trà trái cây","price":38000,"tag":"Pink favorite","desc":"Dâu chua ngọt kết hợp sữa dịu và topping dâu giòn vui miệng.","emoji":"🍓","image":"https://cdn.imweb.me/upload/S20221222519e961523905/883890a623fc4.jpg"},
+    {"id":"unu01","name":"Trà sữa khoai môn","category":"Trà sữa","price":39000,"tag":"Best seller","desc":"Khoai môn bùi thơm, sữa béo dịu và trân châu dai mềm.","emoji":"🧋","image":"https://images.unsplash.com/photo-1558857563-b371033873b8?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu02","name":"Trà sữa nướng kem trứng","category":"Trà sữa","price":45000,"tag":"Creamy","desc":"Trà sữa thơm vị nướng, phủ kem trứng mềm mịn.","emoji":"🥤","image":"https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu03","name":"Matcha latte dâu","category":"Matcha & sữa","price":44000,"tag":"Pink & green","desc":"Matcha thanh nhẹ kết hợp sữa dâu ngọt dịu, màu sắc bắt mắt.","emoji":"🍵","image":"https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu04","name":"Trà đào hoa nhài","category":"Trà trái cây","price":36000,"tag":"Fresh","desc":"Trà hoa nhài thơm dịu, đào mọng ngọt và hậu vị thanh mát.","emoji":"🍑","image":"https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu05","name":"Trà vải hoa hồng","category":"Trà trái cây","price":38000,"tag":"Floral","desc":"Vải ngọt thơm hòa cùng hương hoa hồng nhẹ nhàng.","emoji":"🌹","image":"https://images.unsplash.com/photo-1513558161293-c2b9a9f9b3f5?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu06","name":"Trà chanh mật ong","category":"Trà trái cây","price":32000,"tag":"Refreshing","desc":"Vị chanh chua nhẹ, mật ong dịu ngọt, uống mát lành.","emoji":"🍋","image":"https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu07","name":"Trà dưa lưới bạc hà","category":"Trà trái cây","price":37000,"tag":"Cool mood","desc":"Dưa lưới thơm ngọt kết hợp bạc hà mát lạnh.","emoji":"🍈","image":"https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu08","name":"Trà sen vàng","category":"Trà nguyên bản","price":35000,"tag":"Gentle","desc":"Hương trà dịu, thoang thoảng mùi sen thanh tao.","emoji":"🪷","image":"https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu09","name":"Cà phê muối Ú Nu","category":"Cà phê","price":35000,"tag":"Signature","desc":"Cà phê đậm vị với lớp kem muối mằn mặn, béo nhẹ.","emoji":"☕","image":"https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu10","name":"Bạc xỉu sữa tươi","category":"Cà phê","price":32000,"tag":"Smooth","desc":"Nhiều sữa, cà phê vừa phải, thơm béo và dễ uống.","emoji":"🥛","image":"https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu11","name":"Cold brew cam","category":"Cà phê","price":39000,"tag":"Bright","desc":"Cold brew êm vị, thêm hương cam tươi mát.","emoji":"🍊","image":"https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu12","name":"Cacao marshmallow","category":"Matcha & sữa","price":40000,"tag":"Chocolate","desc":"Cacao thơm đậm, sữa nóng/lạnh tùy chọn cùng marshmallow mềm.","emoji":"🍫","image":"https://images.unsplash.com/photo-1542990253-0b8be4edc7b5?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu13","name":"Soda việt quất","category":"Soda","price":34000,"tag":"Sparkling","desc":"Soda sủi bọt với vị việt quất chua ngọt tươi vui.","emoji":"🫐","image":"https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu14","name":"Sữa dâu tươi","category":"Matcha & sữa","price":38000,"tag":"Pink favorite","desc":"Dâu thơm chua ngọt cùng sữa tươi dịu béo.","emoji":"🍓","image":"https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu15","name":"Ô long đào kem cheese","category":"Trà sữa","price":46000,"tag":"Premium","desc":"Ô long thơm đậm, đào ngọt dịu và lớp kem cheese mịn.","emoji":"🍑","image":"https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=900&q=85"},
+    {"id":"unu16","name":"Matcha dừa non","category":"Matcha & sữa","price":43000,"tag":"Green mood","desc":"Matcha thanh mát kết hợp vị dừa non mềm thơm.","emoji":"🥥","image":"https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85"},
 ]
 
 TOPPINGS = {"Trân châu đen":7000,"Trân châu trắng":7000,"Pudding trứng":8000,"Kem cheese":10000,"Thạch trái cây":7000}
 SIZES = {"M":0,"L":8000,"XL":15000}
 SUGAR = ["0%","30%","50%","70%","100%"]
 ICE = ["Không đá","Ít đá","Bình thường"]
-VOUCHERS = {"MAMA10":10,"SWEET15":15,"HELLO20":10,"THUDUC20":20,"MAMALALA50":50,"XINCHAO":10}
+VOUCHERS = {"UNU10":10,"TRASUA15":15,"NUDETHUONG10":10,"FREESHIP20":20,"HELLOUNU5":5,"UUNU25":25}
 STATUSES = ["Đã tiếp nhận","Đang pha chế","Sẵn sàng nhận","Đang giao","Hoàn tất","Đã hủy"]
 
 # -------------------- SESSION STATE --------------------
@@ -229,15 +232,14 @@ def cart_total():
     return max(0, subtotal - discount), discount
 
 def fetch_image(url):
-    """Download image and return a PIL image; failed URLs return None, never break the app."""
+    """Download an image once; use a safe fallback if the image URL is unavailable."""
     try:
-        response = requests.get(url, timeout=5, headers={"User-Agent":"Mozilla/5.0"})
+        response = requests.get(url, timeout=3, headers={"User-Agent":"Mozilla/5.0"})
         response.raise_for_status()
-        image = Image.open(BytesIO(response.content))
-        image.verify()
-        response = requests.get(url, timeout=5, headers={"User-Agent":"Mozilla/5.0"})
-        response.raise_for_status()
-        return Image.open(BytesIO(response.content)).convert("RGB")
+        content = response.content
+        checked = Image.open(BytesIO(content))
+        checked.verify()
+        return Image.open(BytesIO(content)).convert("RGB")
     except Exception:
         return None
 
@@ -286,7 +288,7 @@ with st.sidebar:
     st.markdown("### 🎡 Lucky Sip")
     st.write("Quay một lượt để nhận ưu đãi vui vẻ.")
     if st.button("🎁 QUAY NHẬN VOUCHER", use_container_width=True):
-        possible = ["MAMA10","SWEET15","HELLO20"]
+        possible = ["UNU10","TRASUA15","NUDETHUONG10","FREESHIP20","HELLOUNU5","UUNU25"]
         st.session_state.fortune_result = random.choice(possible)
     if st.session_state.fortune_result:
         st.success(f"Bạn nhận được mã **{st.session_state.fortune_result}** giảm {VOUCHERS[st.session_state.fortune_result]}%!")
@@ -294,14 +296,14 @@ with st.sidebar:
             st.session_state.active_voucher = st.session_state.fortune_result
             st.rerun()
     st.markdown("### 🎟️ Mã giảm giá")
-    code_input = st.text_input("Nhập mã voucher", placeholder="Ví dụ: MAMA10", key="voucher_input")
+    code_input = st.text_input("Nhập mã voucher", placeholder="Ví dụ: UNU10", key="voucher_input")
     if st.button("Áp dụng mã", use_container_width=True):
         normalized = code_input.strip().upper()
         if normalized in VOUCHERS:
             st.session_state.active_voucher = normalized
             st.success(f"Đã áp dụng {normalized}!")
         else:
-            st.error("Mã chưa đúng. Thử MAMA10, SWEET15, HELLO20, THUDUC20, MAMALALA50 hoặc XINCHAO nhé.")
+            st.error("Mã chưa đúng. Thử UNU10, TRASUA15, NUDETHUONG10, FREESHIP20, HELLOUNU5 hoặc UUNU25 nhé.")
     if st.session_state.active_voucher:
         st.caption(f"Mã đang dùng: {st.session_state.active_voucher}")
         if st.button("Gỡ voucher", use_container_width=True):
@@ -316,11 +318,11 @@ if hero_image.exists():
 
 st.markdown("""
 <div class="hero">
-  <span class="eyebrow">WELCOME TO OUR LITTLE WORLD</span>
+  <span class="eyebrow">CHÀO MỪNG ĐẾN VỚI Ú NU</span>
   <h1>Tiệm trà Ú Nu</h1>
-  <div class="studio">TRÀ NGON · VUI MỖI NGÀY</div>
-  <p>Một ngụm thơm ngon, một chút dịu dàng — ghé Ú Nu chọn món yêu thích và để ngày của bạn ngọt ngào hơn nhé!</p>
-  <div class="hero-note">PHA BẰNG CẢ TẤM LÒNG · GỬI TRỌN NIỀM VUI</div>
+  <div class="studio">TEA · COFFEE · LITTLE JOY</div>
+  <p>Từ trà trái cây mát lành đến cà phê thơm đậm, Ú Nu luôn có một món nhỏ xinh dành riêng cho mood của bạn.</p>
+  <div class="hero-note">CHỌN VỊ BẠN THÍCH · THƯỞNG TRỌN NIỀM VUI</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -335,7 +337,7 @@ with tab_menu:
     left, right = st.columns([2,1])
     with left:
         st.markdown('<div class="section-title">Chọn món yêu thích</div>', unsafe_allow_html=True)
-        st.caption("Tuỳ chỉnh size, topping và độ ngọt theo gu của bạn. Có 13 lựa chọn trà sữa, trà trái cây, trà nguyên bản và cà phê.")
+        st.caption("Tuỳ chỉnh size, topping và độ ngọt theo gu của bạn. Có 16 món trà sữa, trà trái cây, trà nguyên bản, cà phê, matcha và soda để bạn tha hồ chọn.")
     with right:
         category = st.selectbox("Danh mục", ["Tất cả"] + sorted({p["category"] for p in MENU}))
     search = st.text_input("🔎 Tìm món", placeholder="Nhập tên trà, cà phê...")
@@ -371,10 +373,10 @@ with tab_mood:
     st.write("Tiệm trà Ú Nu gợi ý một món hợp mood của bạn 💕")
     mood = st.radio("Chọn mood", ["Cần tỉnh táo ⚡","Muốn thư giãn 🌿","Tâm trạng ngọt ngào 🍓","Muốn tươi mát 🍊"], horizontal=True)
     mood_map = {
-        "Cần tỉnh táo ⚡":["Cà phê sữa Ú Nu","Americano cam"],
-        "Muốn thư giãn 🌿":["Trà Genmaicha gạo rang","Matcha latte","Trà xanh hoa nhài"],
-        "Tâm trạng ngọt ngào 🍓":["Trà sữa trân châu đường đen","Trà sữa ô long kem cheese","Sữa dâu giòn ngọt","Cacao latte macchiato"],
-        "Muốn tươi mát 🍊":["Trà đào cam sả","Trà dưa lưới nhiệt đới","Trà xanh hoa nhài"],
+        "Cần tỉnh táo ⚡":["Cà phê muối Ú Nu","Cold brew cam","Bạc xỉu sữa tươi"],
+        "Muốn thư giãn 🌿":["Trà sen vàng","Trà vải hoa hồng","Matcha dừa non"],
+        "Tâm trạng ngọt ngào 🍓":["Trà sữa khoai môn","Trà sữa nướng kem trứng","Sữa dâu tươi","Cacao marshmallow","Matcha latte dâu"],
+        "Muốn tươi mát 🍊":["Trà đào hoa nhài","Trà chanh mật ong","Trà dưa lưới bạc hà","Soda việt quất"],
     }
     suggested = [p for p in MENU if p["name"] in mood_map[mood]]
     for start in range(0, len(suggested), 3):
@@ -454,7 +456,7 @@ with tab_cart:
             elif method == "Giao hàng" and not address.strip():
                 st.error("Bạn vui lòng nhập địa chỉ giao hàng.")
             else:
-                order_id = "MAMA" + datetime.now().strftime("%y%m%d") + str(random.randint(100,999))
+                order_id = "UNU" + datetime.now().strftime("%y%m%d") + str(random.randint(100,999))
                 order = {
                     "order_id": order_id, "created_at": datetime.now().strftime("%d/%m/%Y %H:%M"),
                     "name": customer_name.strip(), "phone": phone.strip(), "method": method,
@@ -592,7 +594,7 @@ with tab_admin:
             login = st.form_submit_button("Đăng nhập", type="primary")
         if login:
             # Demo password only. Use Streamlit secrets/environment variables in production.
-            if password == st.secrets.get("ADMIN_PASSWORD", "mama2026"):
+            if password == st.secrets.get("ADMIN_PASSWORD", "unu2026"):
                 st.session_state.admin_logged_in = True
                 st.rerun()
             else:
